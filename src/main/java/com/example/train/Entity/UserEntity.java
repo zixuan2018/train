@@ -10,8 +10,9 @@ public class UserEntity {
     private String password;
 
     @Id
-    @Column(name = "iduser")
     @GeneratedValue
+    @Column(name = "iduser")
+
     public int getIduser() {
         return iduser;
     }

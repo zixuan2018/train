@@ -15,7 +15,6 @@ import javax.persistence.EntityManagerFactory;
 
 @SpringBootApplication
 @EnableJpaRepositories
-
 public class TrainApplication {
 
 
